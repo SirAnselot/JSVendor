@@ -10,7 +10,7 @@ Run next command in terminal:
 ```bash
 $ ./compressjs.sh [name]/[v]/[file-1].js [name]/[v]/[file-2].js [...] ../[dest]/[target].min.js
 ```
-Courtesy of [dfsq/compressJS.sh](https://github.com/dfsq/compressJS.sh)
+Courtesy of [dfsq] (https://github.com/dfsq/compressJS.sh)
 
 ## TOC
 ```
