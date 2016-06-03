@@ -1,4 +1,4 @@
 # JSVendor
-JavaScript-Vendor collection with script to compile a custom selection of frameworks in one .min.js to keep pagerequests for vendors under control. This collection should grow as other usefull frameworks are added and new stable versions of included frameworks are released. Older Versions are kept to test compatibility of custom combinations.
+JavaScript-Vendor collection with script to compile a custom selection of frameworks in one .min.js to keep page-requests in projects under control. The collection should grow as other frameworks turn out as indispensable and new stable versions are released. Older Versions are kept to quickly turn back to, if incompatibilities in custom combinations of a project occure.
 
 TOC: tba.
