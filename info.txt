@@ -1,0 +1,26 @@
+
+COMPRESS & MERGE
+==========================================
+Compress and merge files by running next command in terminal. 
+(Filenames should be separated with spaces. The last filename is the build target.)
+-----------------------------------------
+$ ./compressjs.sh [framework]/[version]/file3.js [framework]/[version]/file3.js [framework]/[version]/file3.js ../vendor.min.js
+==========================================
+
+
+BASIC-SETUP 1
+==========================================
+  jquery
++ bootstrap v4
++ tether
++ gsap
++ imagesloaded
+-----------------------------------------
+=> min/vendor.min.js  
+
+RUN:
+-----------------------------------------
+$ ./compressjs.sh jquery/1.12.4/jquery.js tether/1.3.0/tether.js bootstrap/4.0.0/bootstrap.js gsap/1.18.4/TweenMax.js imagesloaded/4.1.0/imagesloaded.js modernizr/2.6.2/modernizr.custom.min.js enquire/2.1.0/enquire.js waypoints/4.0.0/jquery.waypoints.js ../base/public/js/vendor/vendor.min.js
+==========================================
+
+
