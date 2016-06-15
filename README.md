@@ -3,7 +3,7 @@ JavaScript-Vendor collection with script to compress a custom selection of frame
 
 ## Usage
 
-Files you want to compress and add to the custom-collection file should be separated with spaces. The last filename is the build target. 
+Files you want to compress and add to the custom-collection file should be separated with spaces. The last filename is the build target.
 
 Run next command in terminal:
 
@@ -22,7 +22,7 @@ vendor/
 │       ├── bootstrap.min.js
 │       └── bootstrap.js
 │
-├── bootsrap.datepicker/ (https://bootstrap-datepicker.readthedocs.io/en/latest/)
+├── bootsrap.datepicker/ (@see:	https://bootstrap-datepicker.readthedocs.io/en/latest/)
 │   │
 │   ├── 1.7.0/  
 │   │   ├── bootstrap-datepicker.min.js
@@ -30,11 +30,19 @@ vendor/
 │   ├── css/
 │   └── locales/
 │
-├── chartjs/ (www.chartjs.org/docs/)
+├── bootsrap.jasny/ (@see:	http://www.jasny.net/bootstrap/)
+│   │
+│   ├── 3.1.0/
+│   └── 3.1.3/  
+│		  ├── jasny-bootstrap.min.js
+│       ├── jasny-bootstrap.min.css
+│       └── jasny-bootstrap.js
+│
+├── chartjs/ (@see:	http://www.chartjs.org/docs/)
 │   │
 │   └── 2.1.4/
 │       ├── Chart.bundle.js
-│       ├── Chart.bundle.min.js 
+│       ├── Chart.bundle.min.js
 │       ├── Chart.js
 │       └── Chart.min.js
 │
@@ -46,7 +54,7 @@ vendor/
 │   ├── 1.17.0/
 │   └── 1.18.4/ (CLUB-EDITION! with bonus plugins and tools – @see: https://greensock.com/club/)
 │       ├── easing/
-│       ├── plugins/ (plugins must be added separately as needed)
+│       ├── plugins/
 │       ├── utils/
 │       ├── TimelineLite.js
 │       ├── TimelineMax.js
@@ -88,7 +96,7 @@ vendor/
 │       ├── plugins/
 │       └── ScrollMagic.min.js
 │
-├── slick/
+├── slick/ (@see http://kenwheeler.github.io)
 │   │
 │   └── 1.5.9/
 │       ├── fonts/
@@ -97,6 +105,13 @@ vendor/
 │       ├── slick.css
 │       ├── slick.less
 │       └── slick.scss
+│
+├── tablesorter/ (@see:	http://tablesorter.com/docs/)
+│   │
+│   └── 2.0.5/
+│		  ├── jquery.metadata.js
+│       ├── jquery.tablesorter.min.js
+│       └── jquery.tablesorter.js
 │
 ├── tether/ (don't know what this is but seems necessary to run 'bootstrap v4 alpha')
 │   │
@@ -117,8 +132,7 @@ vendor/
         │   ├── sticky.min.js
         │   └── sticky.js
         ├── jquery.waypoints.js     
-        ├── jquery.waypoints.min.js 
+        ├── jquery.waypoints.min.js
         └── waypoints.debug.js  	
- 		    
- 		    
+
 ```

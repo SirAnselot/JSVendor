@@ -3,7 +3,7 @@
 # Constants
 SERVICE_URL=http://closure-compiler.appspot.com/compile
 #NEWFILE="c`date +"%d%m%y"`.js"
-#this specifies last arg as destination 
+#this specifies last arg as destination
 for NEWFILE in $*; do :; done
 
 # Check if files to compile are provided
@@ -61,9 +61,9 @@ if "errors" in data:
 		print "File: %s, %d:%d" % (file, err["lineno"], err["charno"])
 		print "Error: %s" % err["error"]
 		print "Line: %s" % err["line"]
-		
+
 	print "\nBuild failed.\n"
-	
+
 else:
 	print "### COMPILATION COMPLETED"
 	print "Original size: %db, gziped: %db" % (data["statistics"]["originalSize"], data["statistics"]["originalGzipSize"])
