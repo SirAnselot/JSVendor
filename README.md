@@ -46,6 +46,17 @@ vendor/
 │       ├── Chart.js
 │       └── Chart.min.js
 │
+├── chosen/   
+│   │
+│   ├── 1.4.2/
+│   └── 1.5.1/ (@see: https://harvesthq.github.io/chosen/)
+│       ├── chosen.jquery.js
+│       ├── chosen.jquery.min.js
+│       ├── chosen.css
+│       ├── chosen.min.css
+│       ├── chosen-sprite.png
+│       └── chosen-sprite@2x.png
+│
 ├── enquire/2.1.0/enquire.js    
 │
 ├── gsap/   
