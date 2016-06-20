@@ -124,7 +124,7 @@ vendor/
 │       ├── jquery.tablesorter.min.js
 │       └── jquery.tablesorter.js
 │
-├── tether/ (don't know what this is but seems necessary to run 'bootstrap v4 alpha')
+├── tether/ (required by 'bootstrap v4-alpha' tooltips @see http://v4-alpha.getbootstrap.com/components/tooltips/)
 │   │
 │   └── 1.3.0/
 │       ├── css/
