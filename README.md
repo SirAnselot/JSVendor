@@ -22,7 +22,7 @@ vendor/
 │       ├── bootstrap.min.js
 │       └── bootstrap.js
 │
-├── bootsrap.datepicker/ (@see:	https://bootstrap-datepicker.readthedocs.io/en/latest/)
+├── bootsrap.datepicker/ (@see: https://bootstrap-datepicker.readthedocs.io/en/latest/)
 │   │
 │   ├── 1.7.0/  
 │   │   ├── bootstrap-datepicker.min.js
@@ -38,7 +38,7 @@ vendor/
 │       ├── jasny-bootstrap.min.css
 │       └── jasny-bootstrap.js
 │
-├── chartjs/ (@see:	http://www.chartjs.org/docs/)
+├── chartjs/ (@see: http://www.chartjs.org/docs/)
 │   │
 │   └── 2.1.4/
 │       ├── Chart.bundle.js
@@ -135,7 +135,7 @@ vendor/
     │
     ├── 1.6.2/
     └── 4.0.0/
-        ├── shortcuts/  (shortcuts must be added separately as needed)
+        ├── shortcuts/ (shortcuts must be added separately as needed)
         │   ├── infinite.min.js
         │   ├── infinite.js
         │   ├── inview.min.js
