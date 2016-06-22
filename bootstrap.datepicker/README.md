@@ -15,6 +15,8 @@ Install [grunt](http://gruntjs.com/) and the development dependencies using [npm
 
 
 ### Sampel JSON - (1.7.0)
+To include v1.7.0 in [WS-Base](https://github.com/SirAnselot/WS-Base/):
+`[your-project]/grunt/vendorBridge.json`
 ```json 
 {
   "paths": { 
@@ -25,7 +27,6 @@ Install [grunt](http://gruntjs.com/) and the development dependencies using [npm
   }
 }
 ```
-`[your-project]/grunt/vendorBridge.json`
 
 
 ---
