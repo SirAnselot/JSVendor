@@ -13,5 +13,20 @@ Install [grunt](http://gruntjs.com/) and the development dependencies using [npm
     $ [sudo] npm install -g grunt-cli
     $ npm install
 
+
+### Sampel JSON - (1.7.0)
+```json 
+{
+  "paths": { 
+    "vendor": [
+      "bootstrap.datepicker/1.7.0/bootstrap-datepicker.js",
+      "bootstrap.datepicker/1.7.0/locales/bootstrap-datepicker.de.min.js"
+    ] 
+  }
+}
+```
+`[your-project]/grunt/vendorBridge.json`
+
+
 ---
 *© Copyright 2016, [eternicode](https://github.com/eternicode) - forked from the [original code](http://www.eyecon.ro/bootstrap-datepicker/) by Stefan Petre*
