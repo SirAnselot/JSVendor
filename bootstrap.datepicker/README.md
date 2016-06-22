@@ -15,7 +15,7 @@ Install [grunt](http://gruntjs.com/) and the development dependencies using [npm
 
 
 ### Sampel JSON
-To include in [WS-Base](https://github.com/SirAnselot/WS-Base/) setup, add the following script-paths to `"vendor"` array in: [`vendorBridge.json`](https://github.com/SirAnselot/WS-Base/blob/master/grunt/vendorBridge.json).
+To include in [WS-Base](https://github.com/SirAnselot/WS-Base/) setup, add the following script-paths to `"vendor"` array in: [grunt/vendorBridge.json](https://github.com/SirAnselot/WS-Base/blob/master/grunt/vendorBridge.json).
 
 ##### 1.7.0
 ```json
