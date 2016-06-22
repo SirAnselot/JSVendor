@@ -15,7 +15,7 @@ Install [grunt](http://gruntjs.com/) and the development dependencies using [npm
 
 
 ### Sampel JSON
-To include in [WS-Base](https://github.com/SirAnselot/WS-Base/) setup, add script-path relative from `/JSVendor` root directory to `"vendor":[]` in file: `[your-project]/grunt/vendorBridge.json` like this:
+To include in [WS-Base](https://github.com/SirAnselot/WS-Base/) setup, add script-path to `"vendor"`-array in file: `[WS-Base]/grunt/vendorBridge.json`: ~ 
 ```json
 "vendor" : [
     "bootstrap.datepicker/1.7.0/bootstrap-datepicker.js",
