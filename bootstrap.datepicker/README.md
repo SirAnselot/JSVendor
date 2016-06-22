@@ -14,15 +14,15 @@ Install [grunt](http://gruntjs.com/) and the development dependencies using [npm
     $ npm install
 
 
-### Sampel JSON - (1.7.0)
-To include v1.7.0 in [WS-Base](https://github.com/SirAnselot/WS-Base/), edit 
+### Sampel JSON
+To include in [WS-Base](https://github.com/SirAnselot/WS-Base/), add these to "vendor" Array of: 
 `[your-project]/grunt/vendorBridge.json` like this:
-```json 
-    "vendor": [
-      "bootstrap.datepicker/1.7.0/bootstrap-datepicker.js",
-      "bootstrap.datepicker/1.7.0/locales/bootstrap-datepicker.de.min.js",
-      "..."
-    ]
+```json
+"vendor" : [
+    "bootstrap.datepicker/1.7.0/bootstrap-datepicker.js",
+    "bootstrap.datepicker/1.7.0/locales/bootstrap-datepicker.de.min.js",
+    "..."
+]
 ```
 
 
