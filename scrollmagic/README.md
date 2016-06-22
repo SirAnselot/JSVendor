@@ -1,2 +1,2 @@
-# Bootstrap
+# ScrollMagic
 – t.b.a.

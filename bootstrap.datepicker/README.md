@@ -1,2 +1,2 @@
-# Bootstrap
+# Bootstrap Datepicker
 – t.b.a.

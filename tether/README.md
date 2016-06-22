@@ -1,2 +1,2 @@
-# Bootstrap
+# Tether
 – t.b.a.

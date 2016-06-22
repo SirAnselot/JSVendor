@@ -1,2 +1,2 @@
-# Bootstrap
+# Waypoints
 – t.b.a.

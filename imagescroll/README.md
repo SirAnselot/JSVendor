@@ -1,2 +1,2 @@
-# Bootstrap
+# Imagescroll
 – t.b.a.

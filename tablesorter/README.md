@@ -1,2 +1,2 @@
-# Bootstrap
+# Tablesorter
 – t.b.a.

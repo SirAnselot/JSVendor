@@ -1,2 +1,2 @@
-# Bootstrap
+# js.cookie
 – t.b.a.

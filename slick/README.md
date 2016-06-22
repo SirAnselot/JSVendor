@@ -1,2 +1,2 @@
-# Bootstrap
+# Slick
 – t.b.a.

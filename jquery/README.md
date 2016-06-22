@@ -1,2 +1,2 @@
-# Bootstrap
+# jQuery
 – t.b.a.
