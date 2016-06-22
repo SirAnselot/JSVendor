@@ -18,6 +18,11 @@ vendor/
 │
 ├── bootsrap/
 │   │
+│	 ├── 3.3.6/
+│   │   ├── bootstrap.min.js
+│   │   ├── bootstrap.js
+│   │   └── plugins/... (affix.js, alert.js, button.js, ...)
+│   │
 │   └── 4.0.0/
 │       ├── bootstrap.min.js
 │       └── bootstrap.js
@@ -57,7 +62,15 @@ vendor/
 │       ├── chosen-sprite.png
 │       └── chosen-sprite@2x.png
 │
-├── enquire/2.1.0/enquire.js    
+├── enquire/  
+│   │
+│   └── 2.1.0/
+│       └── enquire.js
+│
+├── foundation/  
+│   │
+│   └── 6.1.2/
+│       └── foundation.min.js    
 │
 ├── gsap/   
 │   │
@@ -71,6 +84,12 @@ vendor/
 │       ├── TimelineMax.js
 │       ├── TweenLite.js
 │       └── TweenMax.js
+│
+├── imagescroll/  
+│   │
+│   └── 0.2.3/
+│       ├── imageScroll.min.js
+│       └── imageScroll.js
 │
 ├── imagesloaded/   
 │   │
@@ -94,6 +113,11 @@ vendor/
 │   ├── 1.11.2/
 │   └── 1.11.4/
 │
+├── js.cookie/  
+│   │
+│   └── 2.1.1/
+│       └── js.cookie.js
+│
 ├── modernizr/  
 │   │
 │   └── 2.6.2/
@@ -116,6 +140,12 @@ vendor/
 │       ├── slick.css
 │       ├── slick.less
 │       └── slick.scss
+│
+├── sticky-kit/  
+│   │
+│   └── 1.1.1/
+│       ├── jquery.sticky-kit.js
+│       └── jquery.sticky-kit.min.js
 │
 ├── tablesorter/ (@see:	http://tablesorter.com/docs/)
 │   │
