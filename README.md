@@ -39,7 +39,7 @@ vendor/
 │
 ├── bootsrap/
 │   │
-│	├── 3.3.6/
+│   ├── 3.3.6/
 │   │   ├── bootstrap.min.js
 │   │   ├── bootstrap.js
 │   │   └── plugins/... (affix.js, alert.js, button.js, ...)
