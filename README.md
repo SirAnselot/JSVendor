@@ -3,7 +3,7 @@ JavaScript-Vendor collection with script to compress a custom selection of frame
 
 ## Usage
 
-### 1. "Pack & Go" (bash)    
+### 1. "Pack & Go"  
 Files you want to compress and add to the custom-collection file should be separated with spaces. The last filename is the build target.
 
 Run next command in terminal:
@@ -13,7 +13,7 @@ $ ./compressjs.sh [name]/[v]/[file-1].js [name]/[v]/[file-2].js [...] ../[dest]/
 ```
 Courtesy of [dfsq] (https://github.com/dfsq/compressJS.sh)
 
-### 2. "Itegrated Service" (grunt) in [WS-Base](https://github.com/SirAnselot/WS-Base/) ...
+### 2. "Itegrated Service" in [WS-Base](https://github.com/SirAnselot/WS-Base/) ...
 Add script-paths to [**vendorBridge.json**](https://github.com/SirAnselot/WS-Base/blob/master/grunt/vendorBridge.json)  `(WS-Base/grunt/vendorBridge.json)` of your project.
 
 #### Sample content of `vendorBridge.json` 
