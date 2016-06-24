@@ -12,13 +12,34 @@ $ ./compressjs.sh [name]/[v]/[file-1].js [name]/[v]/[file-2].js [...] ../[dest]/
 ```
 Courtesy of [dfsq] (https://github.com/dfsq/compressJS.sh)
 
+### Use in [WS-Base](https://github.com/SirAnselot/WS-Base/)
+Add script-paths to [**vendorBridge.json**](https://github.com/SirAnselot/WS-Base/blob/master/grunt/vendorBridge.json)  `(WS-Base/grunt/vendorBridge.json)` of your project.
+
+#### Sample content of `vendorBridge.json` 
+```json
+{
+    "paths": {
+		"vendor": [
+			"jquery/1.12.4/jquery.js",
+			"tether/1.3.0/tether.js",
+			"bootstrap/4.0.0/bootstrap.js",
+			"gsap/1.18.4/TweenMax.js",
+			"imagesloaded/3.1.4/imagesloaded.js",
+			"modernizr/2.6.2/modernizr.min.js",
+			"enquire/2.1.0/enquire.js"
+		]
+  	}
+}
+```
+
+
 ## TOC
 ```
 vendor/
 │
 ├── bootsrap/
 │   │
-│	 ├── 3.3.6/
+│	├── 3.3.6/
 │   │   ├── bootstrap.min.js
 │   │   ├── bootstrap.js
 │   │   └── plugins/... (affix.js, alert.js, button.js, ...)
