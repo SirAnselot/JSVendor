@@ -13,7 +13,7 @@ $ ./compressjs.sh [name]/[v]/[file-1].js [name]/[v]/[file-2].js [...] ../[dest]/
 ```
 Courtesy of [dfsq] (https://github.com/dfsq/compressJS.sh)
 
-### 2. "Itegrated Service" in [WS-Base](https://github.com/SirAnselot/WS-Base/) ...
+### 2. "Integrated Service" in [WS-Base](https://github.com/SirAnselot/WS-Base/) ...
 Add script-paths to [**vendorBridge.json**](https://github.com/SirAnselot/WS-Base/blob/master/grunt/vendorBridge.json)  `(WS-Base/grunt/vendorBridge.json)` of your project.
 
 #### Sample content of `vendorBridge.json` 
