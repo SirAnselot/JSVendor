@@ -98,7 +98,8 @@ vendor/
 │   │
 │   ├── 1.14.2/
 │   ├── 1.17.0/
-│   └── 1.18.4/ (CLUB-EDITION! with bonus plugins and tools – @see: https://greensock.com/club/)
+│   ├── 1.18.4/ (ff. CLUB-EDITION! with bonus plugins and tools – @see: https://greensock.com/club/)
+│   └── 1.19.0/ 
 │       ├── easing/
 │       ├── plugins/
 │       ├── utils/
