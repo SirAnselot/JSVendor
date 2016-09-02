@@ -16,7 +16,7 @@ Courtesy of [dfsq] (https://github.com/dfsq/compressJS.sh)
 ### 2. "Integrated Service" in [WS-Base](https://github.com/SirAnselot/WS-Base/) ...
 Add script-paths to [**vendorBridge.json**](https://github.com/SirAnselot/WS-Base/blob/master/grunt/vendorBridge.json)  `(WS-Base/grunt/vendorBridge.json)` of your project.
 
-#### Sample content of `vendorBridge.json` 
+#### Sample content of `vendorBridge.json`
 ```json
 {
     "paths": {
@@ -99,7 +99,7 @@ vendor/
 │   ├── 1.14.2/
 │   ├── 1.17.0/
 │   ├── 1.18.4/ (ff. CLUB-EDITION! with bonus plugins and tools – @see: https://greensock.com/club/)
-│   └── 1.19.0/ 
+│   └── 1.19.0/
 │       ├── easing/
 │       ├── plugins/
 │       ├── utils/
@@ -156,7 +156,8 @@ vendor/
 │
 ├── slick/ (@see http://kenwheeler.github.io)
 │   │
-│   └── 1.5.9/
+│   ├── 1.5.9/
+│   └── 1.6.0/
 │       ├── fonts/
 │       ├── slick.js
 │       ├── slick.min.js
