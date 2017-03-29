@@ -1,2 +1,0 @@
-# chartjs
-– t.b.a.
