@@ -18,19 +18,19 @@ fi
 process_files=false
 for f in $*
 do
-        if [ ${f} != $NEWFILE ]
-        then
-                if [ -r ${f} ]
-                then
-                        code="${code} --data-urlencode js_code@${f}"
-                        # Test whether at least one of the input file is newer than the output file
-                        if [ ${f} -nt $NEWFILE ]; then
-						    process_files=true
-						fi
-                else
-                        echo "File ${f} does not exist or is not readable. Skipped."
-                fi
-        fi
+   if [ ${f} != $NEWFILE ]
+      then
+         if [ -r ${f} ]
+            then
+               code="${code} --data-urlencode js_code@${f}"
+               # Test whether at least one of the input file is newer than the output file
+               if [ ${f} -nt $NEWFILE ]; then
+						process_files=true
+					fi
+         else
+            echo "File ${f} does not exist or is not readable. Skipped."
+         fi
+   fi
 done
 
 if ! ${process_files}
