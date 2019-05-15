@@ -35,19 +35,25 @@ Add script-paths to [**vendorBridge.json**](https://github.com/SirAnselot/WS-Bas
 
 
 ## TOC
+Not up to date unfortunately ...
+
 ```
 vendor/
 │
 ├── bootsrap/
 │   │
 │   ├── 3.3.6/
+│   ├── 4.0.0/
+│   ├── 4.1.1/
+│   ├── 4.1.3/
+│   │── 4.2.1/
 │   │   ├── bootstrap.min.js
-│   │   ├── bootstrap.js
-│   │   └── plugins/... (affix.js, alert.js, button.js, ...)
+│   │   │── bootstrap.js
+│   │   └── ...
 │   │
-│   └── 4.0.0/
-│       ├── bootstrap.min.js
-│       └── bootstrap.js
+│   ├── bootstrap.min.js (latest = 4.2.1)
+│   ├── bootstrap.js (latest = 4.2.1)
+│   └── ...
 │
 ├── bootsrap.datepicker/ (@see: https://bootstrap-datepicker.readthedocs.io/en/latest/)
 │   │
@@ -62,21 +68,25 @@ vendor/
 │   ├── 3.1.0/
 │   └── 3.1.3/  
 │		  ├── jasny-bootstrap.min.js
-│       ├── jasny-bootstrap.min.css
-│       └── jasny-bootstrap.js
+│     ├── jasny-bootstrap.min.css
+│     └── jasny-bootstrap.js
 │
 ├── chartjs/ (@see: http://www.chartjs.org/docs/)
 │   │
-│   └── 2.1.4/
-│       ├── Chart.bundle.js
-│       ├── Chart.bundle.min.js
-│       ├── Chart.js
-│       └── Chart.min.js
+│   │── 2.1.4/
+│   │── 2.5.0/
+│   │   ├── Chart.bundle.js
+│   │   ├── Chart.bundle.min.js
+│   │   ├── Chart.js
+│   │   └── Chart.min.js
+│   │
+│   └── latest 2.5.0 ...
 │
 ├── chosen/   
 │   │
 │   ├── 1.4.2/
-│   └── 1.5.1/ (@see: https://harvesthq.github.io/chosen/)
+│   ├── 1.5.1/
+│   └── 1.8.0/ (@see: https://harvesthq.github.io/chosen/)
 │       ├── chosen.jquery.js
 │       ├── chosen.jquery.min.js
 │       ├── chosen.css
